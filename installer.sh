@@ -13,25 +13,28 @@ curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 source ~/.profile   
 nvm install node 
 nvm install --lts
+
 echo ".................................................."
 echo "Installing Snap..."
 echo ".................................................."
+
 sudo apt install snapd -y
+
 echo ".................................................."
 echo "Installing Vs code..."
 echo ".................................................."
+
 sudo snap install code --classic
+
 echo ".................................................."
 echo "Installing Git..."
 echo ".................................................."
+
 sudo apt install git
+
 echo ".................................................."
 git --version
 echo ".................................................."
 
 
 
-
-echo ".................................................."
-echo "Hy, sachin your system is updated successfully...!"
-echo ".................................................."
